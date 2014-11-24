@@ -17,7 +17,7 @@ This project is based upon [hydra-jetty](https://github.com/projecthydra/hydra-j
 
 ### Dependencies
 
-* [Java 7 (JRE)](https://java.com/en/download/index.jsp)
+* [Java 7 (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 ### Manual
   
