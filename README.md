@@ -11,7 +11,7 @@ This project is based upon [hydra-jetty](https://github.com/projecthydra/hydra-j
 
 * jetty: 8.1.16
 * solr: 4.9.0
-* marmotta: 3.3.0-SNAPSHOT (at commit da254a79)
+* marmotta: 3.3.0 (release candidate)
 
 ## Usage
 
