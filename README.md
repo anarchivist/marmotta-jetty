@@ -11,7 +11,7 @@ This project is based upon [hydra-jetty](https://github.com/projecthydra/hydra-j
 
 * jetty: 8.1.16
 * solr: 4.9.0
-* marmotta: 3.2.1
+* marmotta: 3.3.0
 
 ## Usage
 
@@ -63,10 +63,4 @@ example from Lucene does not include the start.ini file.
 
 #### Marmotta
 
-Marmotta provides a packaged WAR file for distribution. However, to work in Jetty 8.x or higher, the WAR file's `META-INF/jetty-web.xml` and `WEB-INF/jetty-web.xml` need to be patched
-(as of Marmotta 3.2.1). The files to patch are within this repository and located in
-`etc/marmotta-war-patch`. To apply to a freshly downloaded or built Marmotta WAR, run the following:
-
-	jar uvf /path/to/new/marmotta.war -C etc/marmotta-war-patch META-INF/jetty-web.xml WEB-INF/jetty-web.xml
-
-And then replace `webapps/marmotta.war` with your newly patched WAR file.
+Marmotta provides a packaged WAR file for distribution. A built WAR file using Marmotta's [installation from source instructions](http://marmotta.apache.org/installation.html#source) can be used to replace the provided `marmotta.war` file.
