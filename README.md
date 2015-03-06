@@ -10,7 +10,7 @@ This project is based upon [hydra-jetty](https://github.com/projecthydra/hydra-j
 ## Included Versions
 
 * jetty: 8.1.16
-* solr: 4.9.0
+* solr: 4.10.3
 * marmotta: 3.3.0
 
 ## Usage
